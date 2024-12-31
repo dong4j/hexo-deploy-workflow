@@ -1,5 +1,5 @@
 ---
-title: demo
+title: Hexo 博客工作流测试
 categories: 
 tags:
 date: 2024-12-31
