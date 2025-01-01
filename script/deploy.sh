@@ -7,7 +7,7 @@ cd "$SCRIPT_DIR/.." || exit 1
 
 # 定义变量
 REMOTE_HOST="m920x"
-REMOTE_DIR="/opt/1panel/apps/openresty/openresty/www/sites/blog.dong4j.ink/index"
+REMOTE_DIR="/opt/1panel/apps/openresty/openresty/www/sites/blog/index"
 LOCAL_DIR="public" # 脚本同级目录下的 public
 
 # 生成最新的文件
