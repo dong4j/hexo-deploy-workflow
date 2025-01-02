@@ -1,7 +1,6 @@
 import os
 import sys
 import json
-import re
 
 from utils import log, get_process_md_files, dump_md_yaml, split_md, clean_content_whitespace, save_processed_file, load_processed_files
 from generate_summary import generate as generate_summary_from_ai
@@ -34,7 +33,7 @@ def replace_ai_tags_in_md(md_file):
     
     data = result['data']
     body = result['body']
-
+    
     # 替换 `ai` 标签内容
     ai_summary = generate_summary(body)  # 调用摘要生成函数
     if ai_summary:

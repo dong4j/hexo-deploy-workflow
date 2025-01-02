@@ -4,6 +4,11 @@
 2. _ 改成 -;
 3. 同步修改同名的资源目录;
 4. 同步修改 cover;
+
+比如 Desktop_collocation.md, 需要修改为 desktop-collocation.md, 且当前目录下同名的 Desktop_collocation 目录也需要修改为 desktop-collocation, 但是这个同名目录不一定存在;
+最后还要对比 md 文件中的内容, 只需要读取前10 行, 找到 cover, 然后修改 cover 的值:
+1. 如果在 cover 中找到匹配的目录名, 重命名规则同上;
+2. 不要改动 md 中的其他内容;
 """
 
 # 遍历 _drafts 和 _posts 目录下的所有 .md 文件
